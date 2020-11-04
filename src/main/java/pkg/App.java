@@ -1,13 +1,18 @@
 package pkg;
 
-/**
- * Hello world!
- *
- */
+import java.util.Arrays;
+import java.util.List;
 public class App 
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+    	List <Integer> arr = Arrays.asList(10,4,5,2,5);
+    	
+        MyListUtil l = new MyListUtil();
+        System.out.println("abc");
+        l.riordinaDecrescente(arr);
+        System.out.println(arr);
+        l.riordinaCrescente(arr);
+        System.out.println(arr);
     }
 }
